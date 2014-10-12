@@ -40,11 +40,11 @@ lastmod: 2014-07-07T16:57:30+05:30
 		</p>
 		<p> To install:
 			<ul>
-				<li><a href="http://goo.gl/nWQoCQ" target="_blank" class="btn big info">Download Blurt files</a></li>
+				<li><a href="http://goo.gl/nWQoCQ" target="_blank">Download Blurt files</a></li>
 				<li>Attach the js and css files to your webpage:
 				<ul>
-					<li><code><link rel="stylesheet" href="blurt.min.css"></code></li>
-					<li><code><script src="blurt.min.js"></script></code></li>
+					<li><code><pre><link rel="stylesheet" href="blurt.min.css"></pre></code></li>
+					<li><code><pre><script src="blurt.min.js"></script></pre></code></li>
 				</ul>
 				</li>
 			</ul>
