@@ -17,11 +17,11 @@ lastmod: 2014-07-07T16:57:30+05:30
 <div class="grid">
 	<div class="unit half banner">
 		<p>Download the minified CSS and JS files.</p>
-		<div><a href="#" class="btn big info">Download</a></div>
+		<div><a href="http://goo.gl/nWQoCQ" target="_blank" class="btn big info">Download</a></div>
 	</div>
 	<div class="unit half banner">
 		<p>Visit Project Page to contribute or report issues.</p>
-		<div><a href="#" class="btn big info">Github</a></div>
+		<div><a href="https://github.com/{{ site.links.github }}" class="btn big info">Github</a></div>
 	</div>
 </div>
 
