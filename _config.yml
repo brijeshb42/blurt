@@ -1,27 +1,24 @@
-##The website title
 name: Blurt
-##Markdown processor
 markdown: redcarpet
-##syntax highlighter
 highlighter: pygments
-
-##define base_url for valid usage in sitemap.xml and robots.txt
-#base_url: http://gituser.github.io (or http://example.com)
+base_url: http://bitwiser.in/blurt
 sass:
   sass_dir: _sass
   style: :compressed
-##The website description (to be used in meta tags)
-description: blurt | A JS replacement for default alert, confirm and pronpt()
-##Some frequently used keywords on your website
-keywords: javascript, alert, prompt, confirm, blurt, brompt, bonfirm
-
-##define this for disqus comment support
-#disqus: disqusdomain
-
-##set this to enable google analytics
+paginate: 5
+paginate_path: "page:num"
+#disqus: bitwiser
 ga_id: UA-47902363-1
 ga_domain: bitwiser.in
 
-##Some commonly used links
+description: blurt | A JS replacement for default alert() and confirm() and pronpt()
+keywords: development, blog, coding, web development
+twitter: brijeshb42
+fb_page: bitwiser
+
 links:
+  facebook: brijeshb42
+  twitter: brijeshb42
+  email: brijeshb42@gmail.com
   github: brijeshb42/blurt
+
