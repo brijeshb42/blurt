@@ -1,6 +1,6 @@
 # Blurt
 A javascript default ```alert()```, ```confirm()``` and ```prompt()``` replacement.
-Inspired by [sweetAlert](https://github.com/t4t5/sweetalert).
+Inspired by [sweetAlert](https://github.com/t4t5/sweetalert) but custom implementation.
 
 ## [Visit blurt project site](http://bitwiser.in/blurt/)
 
@@ -27,6 +27,9 @@ Inspired by [sweetAlert](https://github.com/t4t5/sweetalert).
 
 # Issues
 Report issues [here](https://github.com/brijeshb42/blurt/issues).
+
+# Bugs-to-fix
+* Uses css animations which may not be supported in old browsers.
 
 # License
 MIT License
