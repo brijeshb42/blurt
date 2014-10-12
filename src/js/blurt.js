@@ -243,7 +243,6 @@
 			Blurt.util.show(content);
 			Blurt.util.show(text);
 		}
-		Blurt.util.setText(okBtn, params.okButtonText);
 
 		if(params.type !== null && (params.type === Blurt.cls.info || params.type === Blurt.cls.success || params.type === Blurt.cls.warning || params.type ===Blurt.cls.error)){
 			Blurt.util.setClass(dialog, Blurt.cls.dialog);
@@ -254,6 +253,7 @@
 		}
 		Blurt.util.show(box);//, Blurt.cls.hidden);
 		Blurt.util.addClass(dialog,'dialog-anim-show');
+		Blurt.util.setText(okBtn, params.okButtonText);
 		okBtn.focus();
 		okBtn.addEventListener('click', _hide);
 	};
