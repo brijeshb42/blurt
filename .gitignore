@@ -3,6 +3,8 @@ dist/
 .sass-cache/
 .tmp/
 ref/
+_site/
+_layouts/
 Gruntfile.sample.js
 src/css/blurt*.css
 src/js/blurt.min.js
