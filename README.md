@@ -31,5 +31,9 @@ Report issues [here](https://github.com/brijeshb42/blurt/issues).
 # Bugs-to-fix
 * Uses css animations which may not be supported in old browsers.
 
+# Todo
+* Implement icons for each of the *blurt* types, i.e, success, info, error and warning.
+* Implement fadeIn and fadeOut to support older browsers which do not support css animation.
+
 # License
 MIT License
