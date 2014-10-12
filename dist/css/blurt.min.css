@@ -1,0 +1,85 @@
+@-webkit-keyframes fadeInAnim { 0% { transform: scale(0.8); }
+  25% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); } }
+@-moz-keyframes fadeInAnim { 0% { transform: scale(0.8); }
+  25% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); } }
+@keyframes fadeInAnim { 0% { transform: scale(0.8); }
+  25% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); } }
+@-webkit-keyframes fadeOutAnim { 0% { transform: scale(1); }
+  10% { transform: scale(0.8); }
+  100% { transform: scale(0.4); } }
+@-moz-keyframes fadeOutAnim { 0% { transform: scale(1); }
+  10% { transform: scale(0.8); }
+  100% { transform: scale(0.4); } }
+@keyframes fadeOutAnim { 0% { transform: scale(1); }
+  10% { transform: scale(0.8); }
+  100% { transform: scale(0.4); } }
+.bl-dialog-anim-show { -webkit-animation: fadeInAnim 0.3s; -moz-animation: fadeInAnim 0.3s; animation: fadeInAnim 0.3s; }
+
+.bl-dialog-anim-hide { -webkit-animation: fadeOutAnim 0.2s; -moz-animation: fadeOutAnim 0.2s; animation: fadeOutAnim 0.2s; -webkit-animation-timing-function: ease-out; -o-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+
+.bl-hidden { display: none; }
+
+.bl-box { color: #535151; }
+.bl-box .bl-overlay { position: fixed; top: 0px; right: 0px; left: 0px; height: 100%; width: 100%; background-color: #000000; opacity: 0.7; z-index: 10000; }
+.bl-box .bl-hidden { display: none; }
+.bl-box .bl-dialog { /*
+* preserving sanity
+* as said by @cobyism
+*/ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; -moz-box-shadow: 0px 2px 5px 5px #333; -webkit-box-shadow: 0px 2px 5px 5px #333; box-shadow: 0px 2px 5px 5px #333; width: 480px; margin-left: -240px; min-height: 100px; position: fixed; top: 10%; left: 50%; z-index: 10001; background-color: #fff; opacity: 1; text-align: center; border-top: 8px solid #B6B6B6; }
+@media all and (max-width: 540px) { .bl-box .bl-dialog { width: auto; margin-left: 0; margin-right: 0; left: 15px; right: 15px; } }
+.bl-box button { background-color: #C2C3C4; color: white; padding: 10px 20px; min-width: 70px; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; font-weight: bold; border: 1px solid transparent; margin-right: 2px; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.bl-box button:hover { background-color: #c7c8c9; color: #535151; }
+.bl-box button:active { background-color: #C2C3C4; }
+.bl-box button:focus { border-color: #000000; }
+.bl-box .bl-default { border-top-color: #B6B6B6; }
+.bl-box .bl-default button { background-color: #B6B6B6; color: #535151; }
+.bl-box .bl-default button:hover { background-color: #bbbbbb; }
+.bl-box .bl-default button:active { background-color: #B6B6B6; }
+.bl-box .bl-default button:focus { color: #535151; }
+.bl-box .bl-success { border-top-color: #359CFC; }
+.bl-box .bl-success button { background-color: #359CFC; }
+.bl-box .bl-success button:hover { background-color: #9acdfd; }
+.bl-box .bl-success button:active { background-color: #359CFC; }
+.bl-box .bl-error { border-top-color: #C93232; }
+.bl-box .bl-error button { background-color: #C93232; }
+.bl-box .bl-error button:hover { background-color: #e08181; }
+.bl-box .bl-error button:active { background-color: #C93232; }
+.bl-box .bl-warning { border-top-color: #F59E2E; }
+.bl-box .bl-warning button { background-color: #F59E2E; }
+.bl-box .bl-warning button:hover { background-color: #facb8f; }
+.bl-box .bl-warning button:active { background-color: #F59E2E; }
+.bl-box .bl-info { border-top-color: #1CD17A; }
+.bl-box .bl-info button { background-color: #1CD17A; }
+.bl-box .bl-info button:hover { background-color: #68ebac; }
+.bl-box .bl-info button:active { background-color: #1CD17A; }
+
+.bl-transform { transform: translateX(100px); }
+
+.bl-header { padding: 20px 10px; border-bottom: 1px solid #F0F0F0; text-align: center; }
+.bl-header h2 { margin: 0px; padding: 0px; font-size: 2em; line-height: 1em; }
+@media all and (max-width: 540px) { .bl-header { padding: 5px; }
+  .bl-header h2 { font-size: 1.6em; } }
+
+.bl-content { padding: 15px 0px; border-bottom: 1px solid #F0F0F0; }
+@media all and (max-width: 540px) { .bl-content { padding: 7.5px; } }
+.bl-content p { margin: 0px; font-size: 1.2em; }
+
+.bl-prompt { padding: 5px; font-size: 1.5em; text-align: center; width: 90%; font-family: monospace; font-weight: bold; border: 0px; }
+.bl-prompt:focus { outline: none; }
+
+.bl-footer { margin: 10px; text-align: center; }
+@media all and (max-width: 540px) { .bl-footer { margin: 5px; } }
+
+.bl-icon { width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; border: 4px solid #1CD17A; margin-bottom: 10px; }
+.bl-icon div { position: absolute; }
+
+.bl-icon-success { border-color: #359CFC; }
+.bl-icon-success div { background-color: #359CFC; height: 5px; position: relative; }
+.bl-icon-success .bl-lt { width: 21px; top: 48px; left: 18px; transform: rotate(46deg); }
+.bl-icon-success .bl-rt { width: 47px; top: 35px; left: 27px; transform: rotate(-46deg); }
