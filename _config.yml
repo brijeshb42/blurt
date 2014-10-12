@@ -21,8 +21,8 @@ keywords: javascript, alert, prompt, confirm, blurt, brompt, bonfirm
 #disqus: disqusdomain
 
 ##set this to enable google analytics
-#ga_id: UA-47902363-1
-#ga_domain: bitwiser.in
+ga_id: UA-47902363-1
+ga_domain: bitwiser.in
 
 ##Some commonly used links
 links:

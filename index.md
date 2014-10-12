@@ -17,6 +17,20 @@ lastmod: 2014-07-07T16:57:30+05:30
 <h1>Still in development</h1>
 
 <div class="grid">
+	<div class="unit whole">
+		<p><b>blurt</b> is a javascript replacement for default <code>alert(), prompt(), and confirm()</code> functions in javascript.</p>
+		<p>The equivalents in blurt are:</p>
+		<p>
+			<ul>
+				<li><code>alert()</code> -> <code>blurt()</code></li>
+				<li><code>prompt()</code> -> <code>brompt()</code></li>
+				<li><code>confirm()</code> -> <code>bonfirm()</code> (Not a good name. I know.)</li>
+			</ul>
+		</p>
+	</div>
+</div>
+
+<div class="grid">
 	<div class="unit half banner">
 		<p>Download the minified CSS and JS files.</p>
 		<div><a href="http://goo.gl/nWQoCQ" target="_blank" class="btn big info">Download</a></div>
