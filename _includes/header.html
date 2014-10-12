@@ -1,0 +1,13 @@
+<header>
+  <h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
+  <nav class="main-nav">
+    <div class="grid">
+      <ul>
+        <li><a href="/">Home</a></li>
+        {% if site.links.github %}
+          <li><a href="https://github.com/{{ site.links.github }}">Github</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+</header>

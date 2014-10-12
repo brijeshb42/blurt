@@ -1,0 +1,67 @@
+$color          : #E6E6E6;
+$color-success  : #4C83D6;
+$color-error    : #F14646;
+$color-info     : #65AA58;
+$color-warning  : #F59E03;
+
+@mixin buttonType($clr){
+  background: $clr;
+  color: #fff;
+  border: 1px solid darken($clr, 20%);
+
+  &:hover{
+    background: lighten($clr, 20%);
+    color: darken($clr, 30%);
+  }
+  &:active{
+    background: $clr;
+    color: #fff;
+    border-color: transparent;
+  }
+}
+
+a.btn{
+  display: inline-block;
+}
+
+button, .btn{
+  background: $color;
+  border: 1px solid darken($color, 30%);
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: all ease-in 0.2s;
+  color: darken($color, 60%);
+
+  &:hover{
+    background: lighten($color, 5%);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &:active{
+    background: $color;
+  }
+  &:focus{
+    outline: none;
+  }
+
+  &.big{
+    padding: 10px 20px;
+    font-size: 1.2em;
+  }
+
+  &.success{
+    @include buttonType($color-success);
+  }
+
+  &.error{
+    @include buttonType($color-error);
+  }
+
+  &.warning{
+    @include buttonType($color-warning);
+  }
+
+  &.info{
+    @include buttonType($color-info);
+  }
+}
