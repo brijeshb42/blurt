@@ -1,1 +1,1 @@
-A javascript default alert, confirm and prompt replacement.
+A javascript default ```alert()```, ```confirm()``` and ```prompt()``` replacement.
