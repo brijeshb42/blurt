@@ -151,7 +151,7 @@
 	}
 
 	function _initializeBlurt(escapable){
-		_makeEscapable(escapable);
+		//_makeEscapable(escapable);
 		doc.body.appendChild(box);
 	}
 
@@ -231,6 +231,7 @@
 			_initializeBlurt(params.escapable);
 			_initialized = !_initialized;
 		}
+		_makeEscapable(params.escapable);
 		Blurt.util.setText(title, params.title);
 		Blurt.util.hide(prmpt);
 		Blurt.util.hide(cancelBtn);

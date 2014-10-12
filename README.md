@@ -1,1 +1,32 @@
+# Blurt
 A javascript default ```alert()```, ```confirm()``` and ```prompt()``` replacement.
+Inspired by [sweetAlert](https://github.com/t4t5/sweetalert).
+
+## [Visit](http://bitwiser.in/blurt/)
+
+[!blurt()](https://raw.github.com/brijeshb42/blurt/master/src/img/blurt.gif)
+
+# Installation
+* Just download the latest zip of [blurt](http://goo.gl/nWQoCQ).
+* And link the ```blurt.min.css``` and ```blurt.min.js``` files in your webpage.
+
+	<link rel="stylesheet" href="blurt.min.css">
+	<script scr="blurt.min.js"></script>
+
+* After page load, show the ```blurt``` using:
+	```blurt('Your message here.')```
+
+# Development
+* Clone the project ```git clone https://github.com/brijeshb42/blurt.git```.
+* Then ```cd``` into **blurt** directory.
+* ```npm install``` installs the **node modules** required during development.
+* Runnig ```grunt``` command initialises dev files and watches for changes made to _blurt.js_ and _scss_ files. 
+* Make your changes to ```src/js/blurt.js``` or ```sass/*.scss```.
+* After making changes, ```grunt dist``` creates the final minified *css* and *js* files in dist directory.
+* Use the generated *blurt.min.js* and *blurt.min.css* in your web page to use _blurt_ .
+
+# Issues
+Report issues [here](https://github.com/brijeshb42/blurt/issues).
+
+# License
+MIT License
