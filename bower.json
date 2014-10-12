@@ -28,7 +28,8 @@
     "tests",
     ".sass-cache",
     "src/*",
-    ".git*",
-    "Gruntfile.js"
+    ".gitignore",
+    "Gruntfile.js",
+    ".jshintrc"
   ]
 }
