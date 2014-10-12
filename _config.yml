@@ -3,15 +3,13 @@ name: Blurt
 ##Markdown processor
 markdown: redcarpet
 ##syntax highlighter
-highlighter: rouge
+highlighter: pygments
 
 ##define base_url for valid usage in sitemap.xml and robots.txt
 #base_url: http://gituser.github.io (or http://example.com)
 sass:
   sass_dir: _sass
   style: :compressed
-paginate: 5
-paginate_path: "page:num"
 ##The website description (to be used in meta tags)
 description: blurt | A JS replacement for default alert, confirm and pronpt()
 ##Some frequently used keywords on your website
@@ -27,6 +25,3 @@ ga_domain: bitwiser.in
 ##Some commonly used links
 links:
   github: brijeshb42/blurt
-
-##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
-about_image: placeholder.jpg
