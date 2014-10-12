@@ -4,7 +4,7 @@ Inspired by [sweetAlert](https://github.com/t4t5/sweetalert).
 
 ## [Visit](http://bitwiser.in/blurt/)
 
-[!blurt()](https://raw.github.com/brijeshb42/blurt/master/src/img/blurt.gif)
+![blurt()](https://raw.github.com/brijeshb42/blurt/master/src/img/blurt.gif)
 
 # Installation
 * Just download the latest zip of [blurt](http://goo.gl/nWQoCQ).
