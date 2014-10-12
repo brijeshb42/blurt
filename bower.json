@@ -27,7 +27,7 @@
     "test",
     "tests",
     ".sass-cache",
-    "src",
+    "src/*",
     ".git*",
     "Gruntfile.js"
   ]

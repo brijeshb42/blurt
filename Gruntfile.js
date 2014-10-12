@@ -97,9 +97,9 @@ module.exports = function(grunt){
 			tmp: {
 				src: ['<%= opts.tmp %>']
 			},
-			dist: {
+			/*dist: {
 				src: ['<%= opts.dist %>']
-			},
+			},*/
 			dev: {
 				files: [{
 					src: ['<%= opts.app %>/js/<%= pkg.name %>.min.js','<%= opts.app %>/css/<%= pkg.name %>.min.css',]
