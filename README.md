@@ -2,7 +2,7 @@
 A javascript default ```alert()```, ```confirm()``` and ```prompt()``` replacement.
 Inspired by [sweetAlert](https://github.com/t4t5/sweetalert).
 
-## [Visit](http://bitwiser.in/blurt/)
+## [Visit blurt project site](http://bitwiser.in/blurt/)
 
 ![blurt()](https://raw.github.com/brijeshb42/blurt/master/src/img/blurt.gif)
 
