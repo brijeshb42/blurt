@@ -29,7 +29,7 @@ module.exports = function(grunt){
 				options: {
 					sassDir: ['<%= opts.app %>/sass'],
 					cssDir: ['<%= opts.dist %>/css'],
-					outputStyle: 'compact',
+					outputStyle: 'compressed',
 					noLineComments: true,
 					environment: 'production'
 				}
