@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.sass-cache/
+.tmp/
+ref/
+Gruntfile.sample.js
+src/css/blurt*.css
+src/js/blurt.min.js

@@ -1,0 +1,10 @@
+{
+	"maxerr" : 50,
+	"browser": true,
+	"strict": false,
+	"quotmark": "single",
+	"white": false,
+	"globals": {
+		"console": true
+	}
+}

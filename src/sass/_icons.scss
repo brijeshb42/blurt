@@ -1,0 +1,36 @@
+.#{$namespace}-icon{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid $color-info;
+  margin-bottom: 10px;
+
+  div{
+    position: absolute;
+  }
+}
+
+.#{$namespace}-icon-success{
+  border-color: $color-success;
+
+  div{
+    background-color: $color-success;
+    height: 5px;
+    position: relative;
+  }
+
+  .#{$namespace}-lt{
+    width: 21px;
+    top: 48px;
+    left: 18px;
+    transform: rotate(46deg);
+  }
+
+  .#{$namespace}-rt{
+    width: 47px;
+    top: 35px;
+    left: 27px;
+    transform: rotate(-46deg);
+  }
+}
