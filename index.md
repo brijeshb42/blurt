@@ -14,6 +14,8 @@ lastmod: 2014-07-07T16:57:30+05:30
 <button class="warning">Hello</button>
 <button class="info">Hello</button>-->
 
+<h1>Still in development</h1>
+
 <div class="grid">
 	<div class="unit half banner">
 		<p>Download the minified CSS and JS files.</p>
@@ -107,3 +109,5 @@ blurt({
 {% endhighlight %}
 	</div>
 </div>
+
+<h2>Todo - Documentation for <code>prompt()</code> equivalent <code>brompt()</code></h2>
