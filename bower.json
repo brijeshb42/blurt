@@ -30,6 +30,7 @@
     ".gitignore",
     "Gruntfile.js",
     ".jshintrc",
-    "package.json"
+    "package.json",
+    "bower.json"
   ]
 }
