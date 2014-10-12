@@ -21,15 +21,15 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests",
     ".sass-cache",
-    "src/*",
+    "src",
     ".gitignore",
     "Gruntfile.js",
-    ".jshintrc"
+    ".jshintrc",
+    "package.json"
   ]
 }

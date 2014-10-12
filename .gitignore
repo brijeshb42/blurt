@@ -8,3 +8,4 @@ Gruntfile.sample.js
 src/css/blurt*.css
 src/js/blurt.min.js
 bower_components/
+*.zip
