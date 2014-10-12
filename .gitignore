@@ -3,7 +3,7 @@ dist/
 .sass-cache/
 .tmp/
 ref/
-_site
+_site/
 .DS_Store
 nbproject
 *.*~
