@@ -52,6 +52,8 @@ lastmod: 2014-07-07T16:57:30+05:30
 	</div>
 </div>
 
+<h1 style="margin-top: 10px; text-align: center">Usage - <code>blurt()</code></h1>
+
 <div class="grid">
 	<div class="unit one-third" style="text-align: center;padding-top: 0px">
 		<p>Simple alert</p>
@@ -136,3 +138,40 @@ blurt({
 </div>
 
 <h2>Todo - Documentation for <code>prompt()</code> equivalent <code>brompt()</code></h2>
+
+<h1 style="margin-top: 10px; text-align:center">Usage - <code>brompt()</code></h1>
+
+<div class="grid">
+	<div class="unit one-third" style="text-align: center;padding-top: 0px">
+		<p>Simple prompt</p>
+		<button id="brompt-2-arg">Try me</button>
+	</div>
+	<div class="unit two-thirds">
+{% highlight javascript %}
+brompt('Prompt title', onOkCallback);
+/* Example */
+brompt('Enter your name',function(val){
+	blurt('Hi '+val);
+});
+{% endhighlight %}
+	</div>
+</div>
+
+<div class="grid">
+	<div class="unit one-third" style="text-align: center;padding-top: 0px">
+		<p>Simple prompt</p>
+		<button id="brompt-3-arg">Try me</button>
+	</div>
+	<div class="unit two-thirds">
+{% highlight javascript %}
+brompt('Prompt title', onOkCallback, onCancelCallback);
+/* Example */
+brompt('Enter your name', function(val){
+	blurt('Hi '+val);
+},
+function(){
+	blurt('Error','You did not enter anything.', 'error');
+});
+{% endhighlight %}
+	</div>
+</div>
