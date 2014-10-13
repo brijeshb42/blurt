@@ -253,7 +253,11 @@
 		}
 		Blurt.util.show(box);//, Blurt.cls.hidden);
 		Blurt.util.addClass(dialog,'dialog-anim-show');
-		Blurt.util.setText(okBtn, params.okButtonText);
+		if(okBtn.textContent){
+			okBtn.textContent = params.okButtonText;
+		}else{
+			okBtn.innerText = params.okButtonText;
+		}
 		okBtn.focus();
 		okBtn.addEventListener('click', _hide);
 	};

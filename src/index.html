@@ -74,16 +74,27 @@
                 });
                 var btn4 = document.getElementById('default');
                 btn4.addEventListener('click',function(){
-                    blurt('You created your own alert!!!');
+                    blurt({
+                        title: 'default',
+                        text: 'Your own alert',
+                        okButtonText: 'Done'
+                    });
                 });
 
                 var btn5 = document.getElementById('brsc');
                 btn5.addEventListener('click',function(){
                     brompt({
-                        title: 'Enter email',
+                        title: 'Enter your name',
                         type: 'info',
                         onConfirm: function(val){
-                            blurt(val);
+                            if(val === ''){
+                                blurt('Error','Empty input','error');
+                            }else{
+                                blurt({
+                                    type: 'info',
+                                    title: 'Hello '+val
+                                });
+                            }
                         },
                         onCancel: function(){
                             blurt("You cancelled","","error");
