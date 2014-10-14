@@ -8,13 +8,23 @@ Inspired by [sweetAlert](https://github.com/t4t5/sweetalert) but custom implemen
 
 # Installation
 * Just download the latest zip of [blurt](http://goo.gl/nWQoCQ).
+* Or install using ```bower install blurt```.
 * And link the ```blurt.min.css``` and ```blurt.min.js``` files in your webpage.
-
+	```html
 	<link rel="stylesheet" href="blurt.min.css">
 	<script scr="blurt.min.js"></script>
+	```
 
 * After page load, show the ```blurt``` using:
 	```blurt('Your message here.')```
+
+* To use ```prompt()``` equivalent, do this:
+	
+	```javascript
+	brompt('Prompt title', function(val){
+		//use the val here
+	});
+	```
 
 # Development
 * Clone the project ```git clone https://github.com/brijeshb42/blurt.git```.
