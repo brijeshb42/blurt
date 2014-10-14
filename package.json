@@ -1,6 +1,6 @@
 {
   "name": "blurt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A javascript default alert, confirm and prompt replacement",
   "main": "index.js",
   "scripts": {
