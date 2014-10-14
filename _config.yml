@@ -1,6 +1,6 @@
 name: Blurt
 markdown: redcarpet
-highlighter: rouge
+highlighter: pygments
 base_url: http://bitwiser.in/blurt
 sass:
   sass_dir: _sass
@@ -8,7 +8,7 @@ sass:
 paginate: 5
 paginate_path: "page:num"
 #disqus: bitwiser
-#ga_id: UA-47902363-1
+ga_id: UA-47902363-1
 ga_domain: bitwiser.in
 
 description: blurt | A JS replacement for default alert() and confirm() and pronpt()

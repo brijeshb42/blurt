@@ -143,7 +143,7 @@ blurt({
 
 <div class="grid">
 	<div class="unit one-third" style="text-align: center;padding-top: 0px">
-		<p>Simple prompt</p>
+		<p>Simple prompt with just title and success callback.</p>
 		<button id="brompt-2-arg">Try me</button>
 	</div>
 	<div class="unit two-thirds">
@@ -159,7 +159,7 @@ brompt('Enter your name',function(val){
 
 <div class="grid">
 	<div class="unit one-third" style="text-align: center;padding-top: 0px">
-		<p>Simple prompt</p>
+		<p>prompt with title, successCallback and errorCallback</p>
 		<button id="brompt-3-arg">Try me</button>
 	</div>
 	<div class="unit two-thirds">
@@ -171,6 +171,52 @@ brompt('Enter your name', function(val){
 },
 function(){
 	blurt('Error','You did not enter anything.', 'error');
+});
+{% endhighlight %}
+	</div>
+</div>
+
+<div class="grid">
+	<div class="unit one-third" style="text-align: center;padding-top: 0px">
+		<p>complete <code>brompt()</code> config</p>
+		<button id="brompt-obj">Try me</button>
+	</div>
+	<div class="unit two-thirds">
+{% highlight javascript %}
+brompt({
+	/* prompt title */
+	title: 'Title',
+
+	/*
+	* prompt design type - 
+	* success, info, error or warning
+	*/
+	type: 'info',
+	
+	/* OK button custom done */
+	okButtonText: 'Done',
+
+	/* Cancel button custom text */
+	cancelButtonText: 'Back',
+
+	/* same function as that of blurt() */
+	escapable: false,
+
+	/*
+	* success callback function
+	* this callback is passed the value which the user has entered
+	*/
+	onConfirm: function(val){
+		blurt('You entered '+val);
+	},
+	
+	/*
+	* method to be called
+	* when user presses cancel button
+	*/
+	onCancel: function(){
+		blurt('Error', 'You cancelled the operation.', 'error');
+	}
 });
 {% endhighlight %}
 	</div>

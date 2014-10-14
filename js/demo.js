@@ -61,9 +61,30 @@ function initBlurtElements(){
 		);
 	});
 
+	var brobj =_get('#brompt-obj');
+	brobj.addEventListener('click',function(){
+		brompt({
+			title: 'Enter your name',
+			type: 'info',
+			okButtonText: 'Done',
+			cancelButtonText: 'Back',
+			escapable: false,
+			onConfirm: function(val){
+				if(val === ''){
+					blurt('Waht?','You entered nothing', 'warning');
+				}else{
+					blurt('Done','Hi '+val, 'info');
+				}
+			},
+			onCancel: function(){
+				blurt('Error','You cancelled the operation', 'error');
+			}
+		});
+	});
+
 }
 
 function loadListeners(){
 	initBlurtElements();
 }
-window.onload = loadListeners;
+window.onload = initBlurtElements;
