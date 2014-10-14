@@ -18,6 +18,8 @@ Inspired by [sweetAlert](https://github.com/t4t5/sweetalert) but custom implemen
 * After page load, show the ```blurt``` using:
 	```blurt('Your message here.')```
 
+![blurt()](https://raw.github.com/brijeshb42/blurt/master/src/img/brompt.gif)
+
 * To use ```prompt()``` equivalent, do this:
 	
 	```javascript
