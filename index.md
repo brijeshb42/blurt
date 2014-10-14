@@ -137,8 +137,6 @@ blurt({
 	</div>
 </div>
 
-<h2>Todo - Documentation for <code>prompt()</code> equivalent <code>brompt()</code></h2>
-
 <h1 style="margin-top: 10px; text-align:center">Usage - <code>brompt()</code></h1>
 
 <div class="grid">
