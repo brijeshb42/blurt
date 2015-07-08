@@ -35,7 +35,7 @@ lastmod: 2014-07-07T16:57:30+05:30
 			<ul>
 				<li><code>alert()</code> -> <code>blurt()</code></li>
 				<li><code>prompt()</code> -> <code>brompt()</code></li>
-				<li><code>confirm()</code> -> <code>bonfirm()</code> (Not a good name. I know.)</li>
+				<!--<li><code>confirm()</code> -> <code>bonfirm()</code> (Not a good name. I know.)</li>-->
 			</ul>
 		</p>
 		<p> To install:
