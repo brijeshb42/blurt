@@ -1,3 +1,5 @@
+> Checkout a similar project [medium-style-confirm](https://github.com/brijeshb42/medium-style-confirm) having a cleaner interface.
+
 # Blurt
 A javascript default ```alert()``` and ```prompt()``` replacement.
 Inspired by [sweetAlert](https://github.com/t4t5/sweetalert) but custom implementation.
